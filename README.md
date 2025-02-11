@@ -4,6 +4,10 @@ This repository contains scripts to manage and tag books in a Calibre library.
 
 ## Scripts
 
+Unless otherwise stated, csv files will be in the standard format out of a calibredb export, namely:
+id,author_sort,authors,comments,cover,formats,id,identifiers,isbn,languages,library_name,pubdate,publisher,rating,series,series_index,size,tags,timestamp,title,title_sort,uuid,title_lower,series_lower,tags_lower
+
+
 ### `tag_books.py`
 
 This script is used to tag books in your Calibre library based on a CSV file.
